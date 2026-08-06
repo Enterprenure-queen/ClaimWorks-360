@@ -1112,7 +1112,7 @@ transform:translateY(-5px);
 /* ================= NEWSLETTER ================= */
 
 .newsletter{
-    background:linear-gradient(135deg,#0b5ed7,#1d9bf0);
+    background:linear-gradient(135deg,#0f766e,#115e59);
     padding:90px 20px;
     text-align:center;
     color:#fff;
@@ -1157,8 +1157,8 @@ transform:translateY(-5px);
     padding:16px 30px;
     border:none;
     border-radius:50px;
-    background:#fff;
-    color:#0b5ed7;
+    background:#14b8a6;
+    color:#fff;
     font-size:16px;
     font-weight:600;
     cursor:pointer;
@@ -1166,7 +1166,7 @@ transform:translateY(-5px);
 }
 
 .newsletter-form button:hover{
-    background:#083b8a;
+     background:#0f766e;
     color:#fff;
     transform:translateY(-3px);
 }
