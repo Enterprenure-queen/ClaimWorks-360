@@ -3459,3 +3459,14 @@ text-align:center;
 
 }
 
+.logo img{
+    height:55px;
+    width:auto;
+    display:block;
+}
+
+.logo a{
+    display:flex;
+    align-items:center;
+}
+
