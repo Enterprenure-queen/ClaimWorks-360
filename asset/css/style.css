@@ -3384,38 +3384,12 @@ text-align:center;
 =========================== */
 @media (max-width:768px){
 
-header{
-    padding:10px 0;
-}
-
-.nav{
-    display:flex;
-    flex-direction:row;
-    justify-content:space-between;
-    align-items:center;
-}
-
-.logo img{
-    width:170px;
-    height:auto;
-}
-
-nav ul{
-    display:none;
-}
-
-.menu-toggle{
-    display:block;
-    font-size:28px;
-    cursor:pointer;
-}
-
-.book-btn,
-.btn{
-    display:none;
-}
-
-}
+    .navbar,
+    .header,
+    nav {
+        display:flex;
+        flex-direction:column;
+        align-items:center;
         padding: 15px;
     }
 
