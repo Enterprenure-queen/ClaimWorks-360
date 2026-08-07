@@ -3430,3 +3430,32 @@ text-align:center;
         text-align: center;
     }
 }
+/************ LOGO FIX FOR ALL PAGES ************/
+
+.logo{
+    display:flex;
+    align-items:center;
+}
+
+.logo img{
+    height:55px !important;
+    width:auto !important;
+    max-width:100%;
+    object-fit:contain;
+    display:block;
+}
+
+@media(max-width:768px){
+
+    .logo{
+        justify-content:center;
+        width:100%;
+    }
+
+    .logo img{
+        height:50px !important;
+        width:auto !important;
+    }
+
+}
+
